@@ -1,0 +1,65 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb"],
+  "rules": {
+    "camelcase": 0,
+    "eol-last": [2, "always"],
+    "import/no-unresolved": 2,
+    "import/no-named-as-default": 0,
+    "import/prefer-default-export": 0,
+    "indent": [2, 2, {
+      "FunctionDeclaration": { "body": 1, "parameters": 1 },
+      "FunctionExpression": { "body": 1, "parameters": 1 },
+      "SwitchCase": 1
+    }],
+    "max-len": [2, 120],
+    "multiline-ternary": [2, "always-multiline"],
+    "no-case-declarations": 2,
+    "no-console": 1,
+    "no-mixed-operators": 2,
+    "no-multiple-empty-lines": [2, {
+      "max": 1,
+      "maxEOF": 1
+    }],
+    "no-shadow": 1,
+    "operator-linebreak": [2, "before"],
+    "prefer-const": [2, {
+      "destructuring": "any",
+      "ignoreReadBeforeAssign": false
+    }],
+    "react/jsx-filename-extension": 0,
+    "react/prefer-es6-class": [2, "always"],
+    "react/jsx-closing-bracket-location": [1, {
+      "nonEmpty": "line-aligned",
+      "selfClosing": "line-aligned"
+    }],
+    "no-param-reassign": [2, { "props": false }],
+    "function-paren-newline": 0,
+    "react/jsx-closing-tag-location": 1,
+    "react/jsx-first-prop-new-line": [2, "multiline-multiprop"],
+    "react/jsx-pascal-case": 2,
+    "react/jsx-tag-spacing": [2, { "beforeSelfClosing": "always" }],
+    "react/prefer-stateless-function": 2,
+    "react/no-unused-prop-types": 2,
+    "react/forbid-prop-types": 1,
+    "react/no-array-index-key": 2,
+    "react/no-string-refs": 2,
+    "react/jsx-wrap-multilines": [2, { "return": "parens-new-line" }],
+    "react/self-closing-comp": 1,
+    "react/jsx-no-bind": 2,
+    "jsx-a11y/alt-text": 2,
+    "jsx-a11y/img-redundant-alt": 2,
+    "jsx-a11y/aria-role": [2, {
+      "ignoreNonDOM": true
+    }]
+  },
+  "globals": {
+    "NODE_ENV": true
+  },
+  "env": {
+    "browser": true
+  },
+  "settings": {
+    "import/resolver": { "node": { "paths": ["src"] } }
+  }
+}
