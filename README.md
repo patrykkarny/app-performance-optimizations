@@ -1,1 +1,3 @@
-# Intersection Observer API in react app
+# Intersection Observer API
+
+Implementation of IntersectionObserver into react app
