@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ImageBox = styled.div`
-  width: ${({ width }) => width || '240px'};
+  width: ${({ width }) => width || '150px'};
   height: ${({ height }) => height || 'auto'};
 
   img {

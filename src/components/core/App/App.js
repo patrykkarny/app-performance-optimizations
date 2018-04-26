@@ -21,7 +21,7 @@ export const App = () => (
           <img src={headerImage} alt="" />
         </ImageBox>
         <TextHeader
-          size="52px"
+          size="32px"
           color={THEME.color.accentColor}
         >
           Intersection Observer API
